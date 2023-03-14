@@ -1,0 +1,8 @@
+FROM mysql:5.7
+
+ENV MYSQL_ROOT_PASSWORD=unwallet.2023
+ENV MYSQL_DATABASE=unwallet_auth_db
+ENV MYSQL_USER=unwallet_admin
+ENV MYSQL_PASSWORD=admin.2023
+
+EXPOSE 3306
