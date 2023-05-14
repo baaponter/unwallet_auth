@@ -1,6 +1,6 @@
 #  UNWallet Auth Microservice
 - --
-## Analytics and Metrics Component
+## Authentication Component
 
 
 # Clone and App installation
