@@ -10,7 +10,6 @@
 
 # Deployment Instructions
 
-        docker pull mongo
         cd unwallet_auth_db
         docker build -t unwallet_auth_db .
         docker run -d -t -i -p 3306:3306 --name unwallet_auth_db unwallet_auth_db
